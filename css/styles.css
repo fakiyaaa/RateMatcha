@@ -1,0 +1,215 @@
+/* Global Styles and Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --matcha-dark: #4a6741;
+  --matcha-medium: #6b8e65;
+  --matcha-light: #a8c5a0;
+  --matcha-pale: #d4e7d1;
+  --cream: #f5f3f0;
+  --white: #ffffff;
+  --text-dark: #2d3e2a;
+  --text-light: #5a6b57;
+  --border-color: #d4e7d1;
+  --star-color: #c9a961;
+  --shadow: 0 2px 8px rgba(74, 103, 65, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, var(--matcha-pale) 0%, var(--cream) 50%, var(--matcha-pale) 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: var(--text-dark);
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+      radial-gradient(circle at 20% 30%, rgba(168, 197, 160, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, rgba(107, 142, 101, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Main Content */
+.main-content {
+  display: none;
+}
+
+/* Search Section */
+.search-section {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 40px;
+  border: 1px solid var(--border-color);
+}
+
+.search-section h2 {
+  color: var(--matcha-dark);
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.location-info {
+  background: var(--matcha-pale);
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--text-dark);
+  font-size: 0.95em;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 14px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  font-size: 1em;
+  background: var(--white);
+  color: var(--text-dark);
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--matcha-medium);
+}
+
+input[type="text"]::placeholder {
+  color: var(--text-light);
+}
+
+/* Buttons */
+.btn {
+  background: var(--matcha-dark);
+  color: var(--white);
+  border: none;
+  padding: 16px 48px;
+  font-size: 1.1em;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: var(--matcha-medium);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: var(--matcha-dark);
+  color: var(--white);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-secondary:hover {
+  background: var(--matcha-medium);
+}
+
+.btn-small {
+  background: var(--matcha-dark);
+  color: var(--white);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-small:hover {
+  background: var(--matcha-medium);
+}
+
+/* Stores Grid */
+.stores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 0;
+}
+
+/* Form Elements */
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  resize: vertical;
+  min-height: 70px;
+  margin-bottom: 12px;
+  font-family: inherit;
+  background: var(--white);
+  color: var(--text-dark);
+  transition: border-color 0.2s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: var(--matcha-medium);
+}
+
+textarea::placeholder {
+  color: var(--text-light);
+}
+
+/* Utility Classes */
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stores-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .input-group {
+      flex-direction: column;
+  }
+  
+  .search-section {
+      padding: 24px;
+  }
+  
+  body {
+      padding: 12px;
+  }
+}

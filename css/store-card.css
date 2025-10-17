@@ -1,0 +1,127 @@
+/* Store Card Styles */
+.store-card {
+    background: var(--white);
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--border-color);
+}
+
+.store-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(74, 103, 65, 0.12);
+}
+
+.store-card h3 {
+    color: var(--matcha-dark);
+    margin-bottom: 16px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.store-info {
+    color: var(--text-light);
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 0.95em;
+}
+
+.store-info div {
+    margin-bottom: 4px;
+}
+
+/* Rating Display */
+.rating-display {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stars {
+    color: var(--star-color);
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.rating-display span:last-child {
+    color: var(--text-light);
+    font-size: 0.9em;
+}
+
+/* Rating Form */
+.rating-form {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.rating-form h4 {
+    margin-bottom: 12px;
+    color: var(--text-dark);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.star-rating {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.star-btn {
+    background: none;
+    border: none;
+    font-size: 1.6em;
+    cursor: pointer;
+    color: var(--border-color);
+    transition: color 0.2s, transform 0.1s;
+    padding: 0;
+    line-height: 1;
+}
+
+.star-btn:hover {
+    color: var(--star-color);
+    transform: scale(1.1);
+}
+
+.star-btn.active {
+    color: var(--star-color);
+}
+
+/* Reviews Section */
+.reviews {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-color);
+}
+
+.reviews h4 {
+    margin-bottom: 16px;
+    color: var(--text-dark);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.review {
+    background: var(--matcha-pale);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.review-stars {
+    color: var(--star-color);
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.review-text {
+    color: var(--text-dark);
+    font-size: 0.9em;
+    line-height: 1.5;
+}

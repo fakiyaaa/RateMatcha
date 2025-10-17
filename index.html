@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area Matcha Spots</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/store-card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-screen" id="welcomeScreen">
+            <h1>🍵 Bay Area Matcha Spots</h1>
+            <p>Rate the matcha cafes near you</p>
+            <button class="btn" onclick="findMyLocation()">Find My Location</button>
+        </div>
+        
+        <div class="main-content" id="mainContent">
+            <div class="search-section">
+                <h2>Find Matcha Spots Near You</h2>
+                <div class="location-info" id="locationInfo"></div>
+                <div class="input-group">
+                    <input type="text" id="zipInput" placeholder="Enter ZIP code (e.g., 94102)">
+                    <button class="btn-secondary" onclick="searchByZip()">Search</button>
+                </div>
+            </div>
+            
+            <div class="stores-grid" id="storesGrid"></div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="js/location.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

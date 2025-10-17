@@ -1,0 +1,124 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Matcha Cafe Maiko",
+      "zip": "94102",
+      "city": "San Francisco",
+      "address": "Union Square",
+      "phone": "(415) 555-0101",
+      "hours": "9:00 AM - 8:00 PM",
+      "website": "https://matchacafemaiko.com"
+    },
+    {
+      "id": 2,
+      "name": "Stonemill Matcha",
+      "zip": "94102",
+      "city": "San Francisco",
+      "address": "Hayes Valley",
+      "phone": "(415) 555-0102",
+      "hours": "8:00 AM - 7:00 PM",
+      "website": "https://stonemillmatcha.com"
+    },
+    {
+      "id": 3,
+      "name": "Matcha Love",
+      "zip": "94103",
+      "city": "San Francisco",
+      "address": "SOMA District",
+      "phone": "(415) 555-0103",
+      "hours": "10:00 AM - 9:00 PM",
+      "website": "https://matchalove.com"
+    },
+    {
+      "id": 4,
+      "name": "Shuei-Do Manju",
+      "zip": "94115",
+      "city": "San Francisco",
+      "address": "Japantown",
+      "phone": "(415) 555-0104",
+      "hours": "9:00 AM - 6:00 PM",
+      "website": "https://shueido.com"
+    },
+    {
+      "id": 5,
+      "name": "Nana's Green Tea",
+      "zip": "94080",
+      "city": "South San Francisco",
+      "address": "Tanforan Mall",
+      "phone": "(650) 555-0105",
+      "hours": "11:00 AM - 8:00 PM",
+      "website": "https://nanasgreentea.com"
+    },
+    {
+      "id": 6,
+      "name": "Matcha Suri",
+      "zip": "94401",
+      "city": "San Mateo",
+      "address": "Downtown San Mateo",
+      "phone": "(650) 555-0106",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://matchasuri.com"
+    },
+    {
+      "id": 7,
+      "name": "Teaspoon",
+      "zip": "94085",
+      "city": "Sunnyvale",
+      "address": "El Camino Real",
+      "phone": "(408) 555-0107",
+      "hours": "10:00 AM - 9:00 PM",
+      "website": "https://teaspoon.com"
+    },
+    {
+      "id": 8,
+      "name": "Asha Tea House",
+      "zip": "94301",
+      "city": "Palo Alto",
+      "address": "University Ave",
+      "phone": "(650) 555-0108",
+      "hours": "8:00 AM - 8:00 PM",
+      "website": "https://ashateahouse.com"
+    },
+    {
+      "id": 9,
+      "name": "Matcha Bar",
+      "zip": "94607",
+      "city": "Oakland",
+      "address": "Jack London Square",
+      "phone": "(510) 555-0109",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://matchabar.com"
+    },
+    {
+      "id": 10,
+      "name": "Matcha Mylkbar",
+      "zip": "94610",
+      "city": "Oakland",
+      "address": "Piedmont Ave",
+      "phone": "(510) 555-0110",
+      "hours": "8:00 AM - 6:00 PM",
+      "website": "https://matchamylkbar.com"
+    },
+    {
+      "id": 11,
+      "name": "Matcha & Co",
+      "zip": "94704",
+      "city": "Berkeley",
+      "address": "Telegraph Ave",
+      "phone": "(510) 555-0111",
+      "hours": "9:00 AM - 8:00 PM",
+      "website": "https://matchaandco.com"
+    },
+    {
+      "id": 12,
+      "name": "Japanese Tea Garden Cafe",
+      "zip": "94118",
+      "city": "San Francisco",
+      "address": "Golden Gate Park",
+      "phone": "(415) 555-0112",
+      "hours": "10:00 AM - 5:00 PM",
+      "website": "https://japaneseteagarden.com"
+    }
+  ]
+}
