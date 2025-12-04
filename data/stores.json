@@ -119,6 +119,58 @@
       "phone": "(415) 555-0112",
       "hours": "10:00 AM - 5:00 PM",
       "website": "https://japaneseteagarden.com"
+    },
+    {
+      "id": 13,
+      "name": "Binge",
+      "zip": "94720",
+      "city": "Berkeley",
+      "address": "2199 Bancroft Way, Berkeley",
+      "phone": "(415) 555-0112",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://japaneseteagarden.com"
+    },
+    {
+      "id": 14,
+      "name": "Binge",
+      "zip": "94704",
+      "city": "Berkeley",
+      "address": "2161 Allston Way",
+      "phone": "(415) 555-0112",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://japaneseteagarden.com"
+    },
+    {
+      "id": 15,
+      "name": "De Matcha",
+      "zip": "94704",
+      "city": "Berkeley",
+      "address": "2315 Telegraph Ave",
+      "phone": "(415) 555-0112",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://japaneseteagarden.com"
+    },
+
+    {
+      "id": 16,
+      "name": "Sharetea",
+      "zip": "94103",
+      "city": "San Francisco",
+      "address": "135 4th St, San Francisco, CA 94103",
+      "phone": "(415) 555-0112",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://japaneseteagarden.com"
+    },
+    {
+      "id": 17,
+      "name": "The Hidden Cafe",
+      "zip": "94103",
+      "city": "Berkeley",
+      "address": "135 4th St, San Francisco, CA 94103",
+      "phone": "(415) 555-0112",
+      "hours": "9:00 AM - 7:00 PM",
+      "website": "https://japaneseteagarden.com"
     }
+    
   ]
 }
